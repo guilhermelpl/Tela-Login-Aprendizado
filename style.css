@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); /* importação de fonte*/
+
+body{
+    font-family: 'poppins',Arial, Helvetica, sans-serif; /* declaração de qual será a fonte da página*/
+    background-image: url(/img/Space.jpg);
+    background-size: cover;
+}
+
+.Login{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* correção para centralização*/
+    padding: 80px; /* Define o tamanho do card*/
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+input{
+    padding: 15px;
+    border: none;    
+    outline: none;
+    font-size: 15px;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: rgb(55, 199, 243, 0.8);
+    border-radius: 10px; 
+    border: none;
+    padding: 15px;
+    width: 100%; /* Largura */
+    font-size: 15px; /* Tamanho desejado para a letra */ 
+    cursor: pointer; /* para mudar o cursos ao passar o mouse por cima do botão de enviar */
+}
+
+.btn:hover{
+    background-color: rgb(70, 67, 67, 0.0); /* Interação com o botão */
+}
